@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* color: #3a2620; /* Bistre (dark brown) */
+/* color: #aa9581; /* Beaver (creamy light brown) */
+/* color: #416a8e; /* Lapis Lazuli (grey-ish blue) */
+/* color: #7a9fc2; /* Air superiority blue (clear sky blue) */
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Macondo", serif;
+}
