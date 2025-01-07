@@ -1,16 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* color: #3a2620; /* dark brown */
+/* color: #aa9581; /* light brown */
+/* color: #416a8e; /* blue */
+/* color: #7a9fc2; /* light blue */
 
-/* color: #3a2620; /* Bistre (dark brown) */
-/* color: #aa9581; /* Beaver (creamy light brown) */
-/* color: #416a8e; /* Lapis Lazuli (grey-ish blue) */
-/* color: #7a9fc2; /* Air superiority blue (clear sky blue) */
-
-body {
-    font-family: "Inter", sans-serif;
+/* CSS variables */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #3a2620; /* dark brown */
+    --secondary-color: #aa9581; /* light brown */
+    --highlight-color: #416a8e; /* blue */
+    --light-highlight-color: #7a9fc2; /* light blue */
 }
 
-h1 {
-    font-family: "Macondo", serif;
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+}
+
+h1, h2, h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
+
+.sub-heading-color {
+    color: var(--highlight-color);
 }
